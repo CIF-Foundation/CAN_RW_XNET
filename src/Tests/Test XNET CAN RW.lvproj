@@ -18,7 +18,7 @@
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
 				<Item Name="_XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Create Session.vi"/>
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
-				<Item Name="CAN_RW_CORE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF CAN RW Core/CAN_RW_CORE.lvclass"/>
+				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="DataTypes_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/DataTypes/DataTypes_CIF_U.lvlib"/>
 				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
@@ -106,9 +106,12 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
+			<Item Name="CAN_RW_CORE.lvclass" Type="LVClass" URL="../../../../can_rw_core/src/CAN_RW_CORE.lvclass"/>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="pcap Parse and Build.lvclass" Type="LVClass" URL="../../../../pcap_parse_build/src/pcap Parse and Build.lvclass"/>
+			<Item Name="trash_Error Global.vi" Type="VI" URL="../../../../can_rw_core/src/typedef/trash_Error Global.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
