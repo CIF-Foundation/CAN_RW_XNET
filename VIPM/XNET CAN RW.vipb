@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-02-09 07:25:39" Creator="toddw" Comments="" ID="0c503f7b95482b1494ca8739f152bcd0">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-03-04 08:30:16" Creator="toddw" Comments="" ID="de0db7f10fe15d144681e10b1be485eb">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_XNET_CAN_RW</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>2.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>First release.  </Release_Notes>
+      <Release_Notes>Updated to use pcap format for R/W</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -111,6 +111,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Tests</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -298,7 +301,7 @@
         <Path>..\src\Utilities\Discover XNET CAN.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>54303BD02447F45D7EA76C69702C2306</GUID>
+      <GUID>AEB890EB26CFC185866996ECA15C2840</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
