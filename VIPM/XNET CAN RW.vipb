@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-09-17 17:38:22" Creator="toddw" Comments="" ID="21c1ee0f39decb21143ab3cec836712a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-09-19 17:36:19" Creator="toddw" Comments="" ID="257f41a56f90b49ae14c34c3300657df">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_XNET_CAN_RW</Package_File_Name>
-    <Library_Version>2.1.0.2</Library_Version>
+    <Library_Version>2.2.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Update to palette install location.  Added support for OS timestamp replacement.  Added VIPM dependency.</Release_Notes>
+      <Release_Notes>Added timestamp pair support.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -309,7 +309,35 @@
         <Path>..\src\Utilities\Discover XNET CAN.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEE14295ECC0A15BA9FEA250B44D4F86</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Start Time.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Utilities\Get Start Time.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Time Pair.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Utilities\Get Time Pair.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>5B2C051941698131778325A81BF05782</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
