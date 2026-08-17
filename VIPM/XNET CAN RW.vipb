@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-11-24 09:55:45" Creator="toddw" Comments="" ID="41c9688e5473b5e4a93bb6a68fbf29b2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-08-16 18:30:06" Creator="toddw" Comments="" ID="c9876075147cca45189385177ef38092">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_XNET_CAN_RW</Package_File_Name>
-    <Library_Version>2.4.1.6</Library_Version>
+    <Library_Version>2.4.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Bug fix for clock adjustment that would be skipped due to not all packets read error.</Release_Notes>
+      <Release_Notes>Memory Optimization</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -309,7 +309,7 @@
         <Path>..\src\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8EDE1CBB97B6FF03D2F6528F8CE6F4A</GUID>
+      <GUID>702230C029E5D07AEFC7787C8B92B242</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -400,7 +400,7 @@
         <Path>..\src\Utilities\Get Time Pair.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F46D19C77EDE5F874CE7F2D3C05C332B</GUID>
+      <GUID>AFB48E3A0424FFF8AF2D3AC1150BF007</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
