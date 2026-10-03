@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Build and Parse.vi" Type="VI" URL="../Build and Parse.vi"/>
+		<Item Name="Test Streaming.vi" Type="VI" URL="../Test Streaming.vi"/>
 		<Item Name="Test TX to Multi RX.vi" Type="VI" URL="../Test TX to Multi RX.vi"/>
 		<Item Name="XNET CAN RW.lvclass" Type="LVClass" URL="../../XNET CAN RW.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -53,6 +54,7 @@
 				<Item Name="XNET FlexRay Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET FlexRay Comm.ctl"/>
 				<Item Name="XNET FlexRay POC State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET FlexRay POC State.ctl"/>
 				<Item Name="XNET FlexRay Stats.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET FlexRay Stats.ctl"/>
+				<Item Name="XNET Flush.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Flush.vi"/>
 				<Item Name="XNET Frame CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame CAN.ctl"/>
 				<Item Name="XNET Frame Ethernet.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Ethernet.ctl"/>
 				<Item Name="XNET Frame FlexRay.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame FlexRay.ctl"/>
